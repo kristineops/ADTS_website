@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ACTIVATE - FRONTPAGE</title>
+
+  <link rel="stylesheet" href="stylesheet.css">
+
+    
+
+
+    <a href="index.html"><img id="logo" src="activate.png"></a> 
+    
+    <div id="meny">
+        <strong><a href ="index.html">HOME</a></strong>
+        <strong><a href ="about.html">ABOUT US</a></strong>
+        <strong><a href ="contact.html">CONTACT US</a></strong>
+        <strong><a href ="soon.html">LEVITATE</a></strong>
+    </div>
+    
+   <p id="CV">Click the pictures for more info</p>
+    
+     <div id="ansatt1">
+        <img id = "ansattImg1" src="kristine.jpg" height="100" width="100">
+        <p id="om1"> 
+            <strong>KRISTINE OPSAL</strong><br>
+        </p>
+    </div> 
+    
+    
+    
+    <div id="ansatt2">
+        <img id = "ansattImg2" src="christian.PNG" height="100" width="100">
+        <p id="om2"> 
+            <strong>CHRISTIAN BERTELSEN</strong><br>
+        </p>    
+    </div> 
+    
+    
+    
+    <div id="ansatt3">
+        <img id = "ansattImg3" src="np.png" height="100" width="100">
+        <p id="om3"> 
+            <strong>NIKLAS JOHANSEN STEINUM</strong><br>
+        </p>
+    </div> 
+    
+    
+    
+    <div id="ansatt4">
+        <img id = "ansattImg4" src="samuel.jpeg" height="100" width="100">
+        <p id="om4"> 
+            <strong>SAMUEL GHEBREHIWOT</strong><br>  
+        </p>
+    </div>
+
+
+</head>
+<body>
+  
+    <script>
+    var imgAnsatt1 = document.getElementById("ansattImg1");
+    var imgAnsatt2 = document.getElementById("ansattImg2");
+    var imgAnsatt3 = document.getElementById("ansattImg3");
+    var imgAnsatt4 = document.getElementById("ansattImg4");
+ 
+    var om1 = document.getElementById("om1");
+    var om2 = document.getElementById("om2");
+    var om3 = document.getElementById("om3");
+    var om4 = document.getElementById("om4");
+    var CV  = document.getElementById("CV");
+    
+    
+    imgAnsatt1.onclick = function(){
+        CV.innerHTML = "<strong>KRISTINE OPSAL</strong><br>";
+        CV.innerHTML += "Birth Date 05.05.2001<br><br><strong>EDUCATION</strong><br>MARKAPLASSEN UNGDOMSSKOLE<br>2014 - 2017<br>STUDIESPESIALISERING - CHARLOTTENLUND VGS<br>2017 - 2020 <br>Studiespesialisering med fordypning i realfag";
+        CV.innerHTML += "<br><br><strong>KURS</strong><br>ITF instruktør 1, 2, 3, 4 (førstehjelp inkludert)<br>ITF dommerkurs<br>Trafikalt grunnkurs<br>Har hatt førstehjelpskurs ved flere anledninger<br><br>"
+        CV.innerHTML += "<strong>SERTIFIKAT</strong><br>Førerkort klasse B";
+        CV.innerHTML += "<br><br><strong>CAREER</strong><br> SEARCHER GEOSERVICES<br>24. Januar 2018 – Mars 2020<br>INSTRUKTØR – TAEKWON-DO<br>6. September 2018 – Juni 2020<br>SOMMERJOBB - NYGARDLODGE <br>sommeren 2015, 2016, 2017 og 2018";
+        CV.innerHTML += "<br><br><strong>EXPERIENCE</strong><br>Black belt in Taekwon-do. <br> I learn and take things to heart quickly. <br> Good on technological devices. <br> Lots of experience with large groups of children and young people";
+        CV.innerHTML += "<br><br><strong>SKILLS</strong><br>Trener 1 status i Norsk Idrettsforbund<br>1. Dan-1 i ITF Taekwon-do";
+    } 
+    imgAnsatt2.onclick = function(){
+        CV.innerHTML = "<strong>CHRISTIAN BERTELSEN</strong><br>";
+        CV.innerHTML += "Birth Date 17.08.2001<br><br><strong>EDUCATION</strong><br> Fullført grunnskole og ungdomsskole 2007-2017. <br>Bryne VGS 2017- 2019 bygg og anlegg<br>Bryne VGS 2019- Påbygg";
+        CV.innerHTML += "<br><br><strong>CAREER</strong><br>2016-2017 Stensland og Byberg, <br>sommerjobb samt utplassert via bygg/anlegg Bryne VGS<br>2015-2017 dommer for Bryne FK. Aldersbestemte lag<br>2018 – 2019 svømmeinstruktør i Bryne svømmeklubb<br>2016- jobber for jærdagskomiteen under jærdagen/jærnatta. Forefallende arbeid.<br>2018-2020 jobbet på Monter Bryne";
+        CV.innerHTML += "<br><br><strong>EXPERIENCE</strong><br>Hardworking<br>Charming<br>Can eat a " + '"farsa"' + " within 1 minute";
+        CV.innerHTML += "<br><br><strong>SKILLS</strong><br>Norsk flytende både skriftlig og muntlig<br>Engelsk flytende både muntlig og skriftlig";
+    } 
+    imgAnsatt3.onclick = function(){
+        CV.innerHTML = "<strong>NIKLAS JOHANSEN STEINUM</strong><br>";
+        CV.innerHTML += "Birth Date 09.12.1999<br><br><strong>EDUCATION</strong><br> 2005-2012 Primary school<br>2012-2015 Junior high school<br>2015-2018 Highschool - media and communication";
+        CV.innerHTML += "<br><br><strong>CAREER</strong><br> 2016-2017 Football trainee<br>2019-2020 Caregiver";
+        CV.innerHTML += "<br><br><strong>EXPERIENCE</strong><br>I have worked together in teams both during my time as <br>a football trainee and a caregiver. I know well how to collaborate and <br>handle pressure during stressful moments.";
+        CV.innerHTML += "<br><br><strong>SKILLS</strong><br>Photoshop, Audition, Sony Vegas, Power point";
+    }
+    
+    imgAnsatt4.onclick = function(){
+        CV.innerHTML = "<strong>SAMUEL GHEBREHIWOT</strong><br>";
+        CV.innerHTML += "Birth Date 27.11.2001<br><br><strong>EDUCATION</strong><br>Aug 2014-Jun 2017 Groruddalen ungdomsskole<br>Aug 2017-d.d. Fyrstikkalléen videregående skole<br>Studiespesialiserende med fordypning i realfag. <br>Jeg har programfagene: Informasjonsteknologi 2, Matte R2 og Entreprenørskap.";
+        CV.innerHTML += "<br><br><strong>CAREER</strong><br>2 Okt 2019-Jun 2020 Salgsansvarlig, Rolling Revolution UB<br>Entreprenørskap prosjekt hvor vi starer en bedrift og lærer om bedriftsutvikling. <br>Mine oppgaver som salgsansvarlig: sette opp salgsmål, <br>oversikt over kunder og fremme salg via våre nettverk.<br><br>Jul 2020-d.d. Tilkallingsvikar, Posten Norge AS<br>Mine arbeidsoppgaver her er hovedsakelig pakkeavlastning <br>og sending av containere. I tillegg til dette har jeg også <br>andre oppgaver som: skriving av fremover melding og skanning av pakker.";
+        CV.innerHTML += "<br><br><strong>EXPERIENCE</strong><br>  Norsk flytende skriftlig og muntlig<br>Engelsk flytende skriftlig og muntlig<br>Tigrinja flytende muntlig<br>Fransk noe muntlig og skriftlig<br>Data Microsoft Office, Adobe Photoshop og Sublime text.";
+        CV.innerHTML += "<br><br><strong>COURSES</strong><br>Mar 2019 - Franskkurs, École Pierre Overall, Nice, Frankrike<br>Mar 2017 - Førstehjelpskurs, Groruddalen ungdomsskole";
+
+    }
+         
+    
+    </script>
+    
+</body>
+</html>
